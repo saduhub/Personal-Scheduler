@@ -6,6 +6,7 @@ body {
 }
 header {
   background-color: #ffd7ba;
+  font-family: 'Castoro Titling', cursive;
 }
 .container-lg {
   background-color: #f8edeb;
@@ -14,6 +15,7 @@ header {
 #saved{
   display: none;
   text-align: center;
+  font-family: 'Castoro Titling', cursive;
 }
 /* Hour card */
 .description {
@@ -32,6 +34,9 @@ header {
   background-color: #f8edeb;
   color: #000000;
   border-top: 1px dashed #000000;
+  font-family: 'Castoro Titling', cursive;
+  font-size: 20px;
+  font-weight: bold;
 }
 /* Color textareas */
 textarea {
@@ -41,6 +46,8 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  font-family: 'Sacramento', cursive;
+  font-size: 36px;
 }
 
 .past {

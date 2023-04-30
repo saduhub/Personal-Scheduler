@@ -4,7 +4,7 @@ $('#saved').hide();
 let hourDivs = $('.row');
 // Use dayjs to display current day
 let todayDate = dayjs().format('MMMM D, YYYY');
-$('#currentDay').text(todayDate)
+$('#currentDay').text(todayDate).css('font-weight', 'bold');
 // Use day js to determine current hour 
 let currentHour = parseInt(dayjs().format('HH'));
 // Each button w/ class "saveBtn" will save inputs to localStorage and trigger feedback
