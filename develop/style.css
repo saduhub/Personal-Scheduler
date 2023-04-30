@@ -1,10 +1,14 @@
-:root{
-  --background-color-1: black;
-}
 /* Body */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  background-color: #f8edeb;
+}
+header {
+  background-color: #ffd7ba;
+}
+.container-lg {
+  background-color: #f8edeb;
 }
 /* Feedback popup */
 #saved{
@@ -21,11 +25,11 @@ body {
 }
 
 .row {
-  border-top: 1px solid white;
+  border-top: 1px solid #f8edeb;
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: #f8edeb;
   color: #000000;
   border-top: 1px dashed #000000;
 }
@@ -40,25 +44,25 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #f1e4e8;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #ceb1be;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #fec5bb;
   color: white;
 }
 /* Save Button */
 .saveBtn {
-  border-left: 1px solid black;
+  /* border-left: 1px solid black; */
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #fec89a;
   color: white;
 }
 

@@ -12,7 +12,7 @@ $('.saveBtn').click(function () {
   let descriptionValue = $(this).siblings('.description').val();
   let key = $(this).parent().data('hour');
   localStorage.setItem(key, descriptionValue);
-  $('#saved').fadeIn().delay(3000).fadeOut(1000)
+  $('#saved').fadeIn().delay(2000).fadeOut(1000)
 })
 // Each item inside of the jquery object will be populated with values found inside localStorage.
 hourDivs.each(function () {
