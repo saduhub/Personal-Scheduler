@@ -1,22 +1,17 @@
+:root{
+  --background-color-1: black;
+}
+/* Body */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
-
+/* Feedback popup */
 #saved{
   display: none;
   text-align: center;
 }
-
-textarea {
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
-}
-
+/* Hour card */
 .description {
   white-space: pre-wrap;
 }
@@ -34,6 +29,15 @@ textarea {
   color: #000000;
   border-top: 1px dashed #000000;
 }
+/* Color textareas */
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
 
 .past {
   background-color: #d3d3d3;
@@ -49,7 +53,7 @@ textarea {
   background-color: #77dd77;
   color: white;
 }
-
+/* Save Button */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;

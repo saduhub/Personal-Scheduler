@@ -4,35 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
     />
+    <!-- fontawesome icons -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <!-- google fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <!-- link to css file -->
     <link rel="stylesheet" href="develop/style.css">
+    <!-- dayjs -->
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
     <title>Work Day Scheduler</title>
   </head>
-
+  <!-- body -->
   <body>
+    <!-- header -->
     <header class="p-5 mb-4 border-5 border-bottom border-dark text-center">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+    <!-- container for scheduler -->
     <div class="container-lg px-5">
-
+      <!-- Segment saved popup -->
       <h2 id="saved">Segment saved ✅</h2>
-
+      <!-- Hour 9 segment -->
       <div id="hour-9" class="row time-block" data-hour="9">
         <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -40,7 +47,7 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-
+      <!-- Hour 10 segment -->
       <div id="hour-10" class="row time-block" data-hour="10">
         <div class="col-2 col-md-1 hour text-center py-3">10AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -48,7 +55,7 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-
+      <!-- Hour 11 segment -->
       <div id="hour-11" class="row time-block" data-hour="11">
         <div class="col-2 col-md-1 hour text-center py-3">11AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -56,7 +63,7 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-
+      <!-- Hour 12 segment -->
       <div id="hour-12" class="row time-block" data-hour="12">
         <div class="col-2 col-md-1 hour text-center py-3">12PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -64,7 +71,7 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-
+      <!-- Hour 13 segment -->
       <div id="hour-13" class="row time-block" data-hour="13">
         <div class="col-2 col-md-1 hour text-center py-3">1PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -72,7 +79,7 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-
+      <!-- Hour 14 segment -->
       <div id="hour-14" class="row time-block" data-hour="14">
         <div class="col-2 col-md-1 hour text-center py-3">2PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -80,7 +87,7 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-
+      <!-- Hour 15 segment -->
       <div id="hour-15" class="row time-block" data-hour="15">
         <div class="col-2 col-md-1 hour text-center py-3">3PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -88,7 +95,7 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-
+      <!-- Hour 16 segment -->
       <div id="hour-16" class="row time-block" data-hour="16">
         <div class="col-2 col-md-1 hour text-center py-3">4PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -96,7 +103,7 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-
+      <!-- Hour 17 segment -->
       <div id="hour-17" class="row time-block" data-hour="17">
         <div class="col-2 col-md-1 hour text-center py-3">5PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -104,15 +111,10 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-
     </div>
+    <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
-      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
-      crossorigin="anonymous"
-    ></script>
-
+    <!-- script.js -->
     <script src="develop/script.js"></script>
   </body>
 </html>
