@@ -6,7 +6,9 @@ The motivation behind this project was to solidify my knowledge of third-party A
 
 Link to deployed application [here](https://saduhub.github.io/Personal-Scheduler/)
 
+Screenshot of project:
 ![Screenshot of project](assets/Personal%20Scheduler%20Screenshot.png)
+Screenshot of project wireframe:
 ![Screenshot of wireframe](assets/Personal%20Scheduler%20Wireframe%20Screenshot.png)
 
 ## Installation
