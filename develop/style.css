@@ -66,14 +66,38 @@ textarea {
 }
 /* Save Button */
 .saveBtn {
-  /* border-left: 1px solid black; */
+  font-size: 30px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #fec89a;
   color: white;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
+.saveBtn:hover i {
+  font-size: 36px;
   transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+.saveBtn:hover {
+  background-color: #ffb4a2;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+
+@media screen and (max-width: 479px) {
+  .saveBtn {
+    font-size: 24px;
+  }
+
+  .saveBtn:hover i {
+    font-size: 28px;
+    transition: all 0.3s ease-in-out;
+  }
 }
